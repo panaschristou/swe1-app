@@ -20,7 +20,7 @@ deploy:
     secure: "AKIA47CRZRW7HADV2ONM"
   secret_access_key:
     secure: "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"
-  region: "us-east-2"
+  region: "us-west-2"
   app: "swe1-app"
   env: "swe1-app-env"
   bucket_name: "elasticbeanstalk-us-west-2-891377257918"
