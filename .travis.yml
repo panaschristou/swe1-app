@@ -1,6 +1,6 @@
 language: python
 python:
-  - "3.11.0"  # Use the development version of Python 3.10
+  - "python-3.11.0.tar.bz2"  # Use the development version of Python 3.10
 
 env:
   - DJANGO_SETTINGS_MODULE="mysite.settings"
