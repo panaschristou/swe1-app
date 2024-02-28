@@ -12,3 +12,15 @@ install:
 script:
   - python manage.py migrate
   - python manage.py test
+
+
+deploy:
+  provider: elasticbeanstalk
+  access_key_id:
+    secure: "AKIA47CRZRW7HADV2ONM"
+  secret_access_key:
+    secure: "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"
+  region: "us-east-2"
+  app: "swe1-app"
+  env: "swe1-app-env"
+  bucket_name: "swe1-app-env.eba-akkyyi3k.us-west-2"
