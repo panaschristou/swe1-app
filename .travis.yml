@@ -23,6 +23,5 @@ deploy:
   region: "us-east-2"
   app: "swe1-app"
   env: "swe1-app-env"
-  bucket_name: "elasticbeanstalk-us-west-2-891377257918"
   on:
     branch: main  # Deploy only from the main branch
