@@ -5,6 +5,6 @@ typing_extensions==4.9.0
 tzdata==2024.1
 black==22.3.0
 flake8==7.0.0
-coverage==6.5.0
+coverage==6.5.0 # required for coveralls to work 
 coveralls==3.3.1
 
